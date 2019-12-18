@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html %}
+
+  <body>
+    <div class="gnb-wrap">
+      <div class="etoos-logo-wrap">
+        <!-- <a class="etoos-logo" href="/"><img src="http://recruit.etoos.com/images/recruit/common/logo.gif" alt="etoos logo"></a> -->
+        <a class="etoos-logo" href="/"><img src="http://recruit.etoos.com/images/recruit/common/logo.gif" alt="etoos logo"><span>기술 블로그</span></a>
+      </div>
+      {% assign current = page.url | downcase | split: '/' %}
+      <nav class="nav">
+        <div class="nav-container">
+            <ul>
+                <li class="transition">
+                    <a href="{{ '' | prepend: site.baseurl }}/" {% if current[1] == "about" or current[1] == "blog" or current[1] == "project" %} class="normal" {% endif %} class="active">Home</a>
+                </li>
+                <li class="transition">
+                    <a href="{{ '/blog' | prepend: site.baseurl }}" {% if current[1] == "blog" %} class="active"{% endif %} >Etoos Tech</a>
+                </li>
+                <li class="transition">
+                    <!-- <a href="{{ '/project' | prepend: site.baseurl }}" {% if current[1] == "project" %} class="active"{% endif %} >Open Source</a> -->
+                    <a href="https://github.com/hwlee8042/hwlee8042.github.io" target="_blank" >Open Source</a>
+                </li>
+                <li class="transition">
+                    <a href="{{ '/about' | prepend: site.baseurl }}" {% if current[1] == "about" %} class="active"{% endif %} >About</a>
+                </li>
+            </ul>
+        </div>
+      </nav>
+    </div>
+
+    {% if page.post-header == true %}
+        {% include post-header.html %}
+    {% endif %}
+    {% if page.project-header == true %}
+        {% include project-header.html %}
+    {% endif %}
+      
+    <main>
+        {{ content }}
+        
+        {% if page.text == true %}
+            {% include share.html %}
+        {% endif %}
+
+    </main>
+      
+      {% include footer.html %}
+   
+  </body>
+</html>

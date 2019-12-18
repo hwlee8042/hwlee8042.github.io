@@ -1,0 +1,26 @@
+third-place:
+- name: 온라인개발실
+  role: Etoos 온라인 강의
+  site_name: etoos.com
+  url: https://www.etoos.com/home/default.asp
+
+second-place:
+- name: IT사업지원실
+  role: 외부 학원 개발
+
+second-site:
+- site_name: 청솔 학원
+  url : http://www.cheongsol.co.kr/
+- site_name: 하이퍼 학원
+  url : http://www.hyperacademy.co.kr/
+- site_name: 앤써 학원
+  url : http://etoosanswer.co.kr/
+- site_name: 247 학원
+  url : http://247.etoos.com/
+- site_name: 247 기숙학원
+  url : http://gisuk247.etoos.com/
+
+first-place:
+- name: 기반기술개발실
+  role: 신 사업 개발
+  site: 
