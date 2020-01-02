@@ -16,9 +16,9 @@ markdown:       kramdown
 
 # About
 author:
-  name:         Lee Hye Won
+  name:         DX Tech Lab
   url:          http://hwlee8042.github.io
-  email:        hwlee8042@gmail.com  
+  email:        test@etoos.com
   github:       hwlee8042
 
 # Custom vars

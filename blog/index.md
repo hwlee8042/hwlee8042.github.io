@@ -1,10 +1,9 @@
 ---
 layout: default
 title: "Etoos Tech Blog"
-description: 이투스 개발자들의 실전 경험과 지식 공유 공간
 main: true
-project-header: true
-header-img: img/about.jpg
+subtitle: Etoos Tech Blog Main
+post-header: true
 ---
 
 <ul class="catalogue">

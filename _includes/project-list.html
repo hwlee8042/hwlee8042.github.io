@@ -1,43 +1,5 @@
 <li class="workplace transition">
-    {% for third in site.data.experience.third-place %}
-    <p class="workplace-name">
-        {{ third.name }}
-    </p>
-    <div class="work-info">
-        <p>
-            {{ third.role }}
-        </p>
-        <p class="work-sub-info">
-            <a href="{{ third.url }}">
-                {{third.site_name}}
-            </a>
-        </p>
-    </div>
-    {% endfor %}
-</li>
-
-<li class="workplace transition">
-    {% for second in site.data.experience.second-place %}
-    <p class="workplace-name">
-        {{ second.name }}
-    </p>
-    <div class="work-info">
-        <p>
-            {{ second.role }}
-        </p>
-        <p class="work-sub-info">
-            {% for site in site.data.experience.second-site %}
-                <a href="{{ site.url }}">
-                    {{site.site_name}}
-                </a>
-            {% endfor %}
-        </p>
-    </div>
-    {% endfor %}
-</li>
-
-<li class="workplace transition">
-    {% for first in site.data.experience.first-place %}
+    {% for first in site.data.experience.first_recruit %}
     <p class="workplace-name">
         {{ first.name }}
     </p>
@@ -46,7 +8,47 @@
             {{ first.role }}
         </p>
         <p class="work-sub-info">
-            {{ first.site }}
+            {% for recruitURL in site.data.experience.first_recruitURL %}
+                <a href="{{ recruitURL.url }}">
+                    {{recruitURL.career}}
+                </a>
+            {% endfor %}
+        </p>
+    </div>
+    {% endfor %}
+</li>
+
+<li class="workplace transition">
+    {% for second in site.data.experience.second_recruit %}
+    <p class="workplace-name">
+        {{ second.name }}
+    </p>
+    <div class="work-info">
+        <p>
+            {{ second.role }}
+        </p>
+        <p class="work-sub-info">
+            {% for recruitURL in site.data.experience.second_recruitURL %}
+                <a href="{{ recruitURL.url }}">
+                    {{recruitURL.career}}
+                </a>
+            {% endfor %}
+        </p>
+    </div>
+    {% endfor %}
+</li>
+
+<li class="workplace transition">
+    {% for third in site.data.experience.third_recruit %}
+    <p class="workplace-name">
+        {{ third.name }}
+    </p>
+    <div class="work-info">
+        <p>
+            {{ third.role }}
+        </p>
+        <p class="work-sub-info">
+            {{ third.site }}
         </p>
     </div>
     {% endfor %}
