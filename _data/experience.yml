@@ -1,13 +1,14 @@
 first_recruit:
 - name: Web & Server Developer
-  role: 개발자
   site_name: etoos.com
   url: https://www.etoos.com/home/default.asp
 
 first_recruitURL:
 - career: Junior
+  explanation : 신입부터 경력 4년 미만
   url : 
 - career: Senior
+  explanation : 경력 4년이상 부터 경력 8년이하
   url : 
 
 second_recruit:

@@ -1,8 +1,8 @@
-I"�<div class="loading-animation">
-<section class="resume">
-    <div class="resume-info">
+I"r<div class="loading-animation">
+<section class="recruit">
+    <div class="recruit-info">
         <p class="second-label">
-            <span class="label-emoji">&#9787;</span> Etoos Tech Lab
+            <span class="label-emoji">&#9787;</span> 진행중인 채용
         </p>
     </div>
     <ul>
@@ -10,16 +10,49 @@
         <li class="workplace transition">
     
     <p class="workplace-name">
-        온라인개발실
+        Web &amp; Server Developer
+    </p>
+    <div class="work-info">
+        
+            <p>
+                <a href="">Junior</a>
+                <span class="work-info">
+                신입부터 경력 4년 미만
+            </span>
+            </p>
+        
+            <p>
+                <a href="">Senior</a>
+                <span class="work-info">
+                경력 4년이상 부터 경력 8년이하
+            </span>
+            </p>
+        
+
+
+    </div>
+    
+</li>
+
+<li class="workplace transition">
+    
+    <p class="workplace-name">
+        Data Base Admin
     </p>
     <div class="work-info">
         <p>
-            Etoos 온라인 강의
+            
         </p>
         <p class="work-sub-info">
-            <a href="https://www.etoos.com/home/default.asp">
-                etoos.com
-            </a>
+            
+                <a href="">
+                    Junior
+                </a>
+            
+                <a href="">
+                    Senior
+                </a>
+            
         </p>
     </div>
     
@@ -28,47 +61,11 @@
 <li class="workplace transition">
     
     <p class="workplace-name">
-        IT사업지원실
+        Mobile Developer
     </p>
     <div class="work-info">
         <p>
-            외부 학원 개발
-        </p>
-        <p class="work-sub-info">
             
-                <a href="http://www.cheongsol.co.kr/">
-                    청솔 학원
-                </a>
-            
-                <a href="http://www.hyperacademy.co.kr/">
-                    하이퍼 학원
-                </a>
-            
-                <a href="http://etoosanswer.co.kr/">
-                    앤써 학원
-                </a>
-            
-                <a href="http://247.etoos.com/">
-                    247 학원
-                </a>
-            
-                <a href="http://gisuk247.etoos.com/">
-                    247 기숙학원
-                </a>
-            
-        </p>
-    </div>
-    
-</li>
-
-<li class="workplace transition">
-    
-    <p class="workplace-name">
-        기반기술개발실
-    </p>
-    <div class="work-info">
-        <p>
-            신 사업 개발
         </p>
         <p class="work-sub-info">
             

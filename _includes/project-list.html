@@ -4,16 +4,16 @@
         {{ first.name }}
     </p>
     <div class="work-info">
-        <p>
-            {{ first.role }}
-        </p>
-        <p class="work-sub-info">
-            {% for recruitURL in site.data.experience.first_recruitURL %}
+        {% for recruitURL in site.data.experience.first_recruitURL %}
+            <p>
                 <a href="{{ recruitURL.url }}">
                     {{recruitURL.career}}
+                    <span class="work-sub-info">{{recruitURL.explanation}}</span>
+
                 </a>
-            {% endfor %}
-        </p>
+            </p>
+        {% endfor %}
+
     </div>
     {% endfor %}
 </li>
