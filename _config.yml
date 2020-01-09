@@ -2,9 +2,8 @@
 permalink:      /:year-:month-:day/:title
 
 # Setup
-title:          Etoos Technical Blog test
+title:          Etoos Technical
 baseurl:        ""
-url:            "http://hwlee8042.github.io"
 
 # Assets
 sass:
@@ -16,9 +15,8 @@ markdown:       kramdown
 
 # About
 author:
-  name:         DX Tech Lab
-  url:          http://hwlee8042.github.io
-  email:        test@etoos.com
+  name:         ETOOS Tech Lab
+  email:        etoosTech@etoos.com
   github:       hwlee8042
 
 # Custom vars

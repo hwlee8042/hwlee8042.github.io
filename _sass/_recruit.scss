@@ -46,24 +46,29 @@ div.recruit-info {
 
         .work-info {
             display: inline-block;
-            
-            span.work-sub-info {
-                a{
-                    color: $default-tint;
-                    font-size: 16px;
-                    font-family: $source;
-                    font-weight: 400;
-                    padding-right: 5px;
-                    margin-right: 5px;
-                    border-right: 1px solid rgba(0,0,0,.3);
-                }
 
-                a:last-child {
-                    padding-right: 0;
-                    margin-right: 0;
-                    border-right : 0px;
-                }
+            span.work-sub-info {
+                font-size : 16px;
+                margin-left : 5px;
+                color : rgb(70, 70, 70);
+                border-right: 1px solid rgba(0,0,0,.3);
+                padding-right: 10px;
+                margin-right: 5px;
             }
+
+            /* span.work-sub-info:last-child {
+                padding-right: 0;
+                margin-right: 0;
+                border-right : 0px;
+            } */
+
+            a{
+                color: $default-tint;
+                font-size: 16px;
+                font-family: $source;
+                font-weight: 400;
+            }
+            
         }
         
         svg {
