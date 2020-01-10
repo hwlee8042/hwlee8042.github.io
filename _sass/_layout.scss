@@ -29,6 +29,9 @@
         padding-bottom: 10px;
         position: relative;
     }
+        @media (max-width: $break-small) {
+            height: 75px;
+        }
   }
   
     ul {
@@ -56,6 +59,9 @@
     .blog-menu {
         position: absolute;
         right: 0;
+        @media (max-width: $break-small) {
+            top: -3px;
+        }
     }
   
   
@@ -72,7 +78,6 @@
         @media (max-width: $break-small) {
             margin: 0 10px 0 0;
             font-size: 16px;
-
             img {
                 display : none;
             }
