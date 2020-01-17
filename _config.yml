@@ -16,10 +16,10 @@ markdown:       kramdown
 # About
 author:
   name:         ETOOS Tech Lab
-  email:        etoosTech@etoos.com
+  email:        etoostech@etoos.com
   github:       hwlee8042
 
 # Custom vars
 version:        3.4.1
 github:
-  repo:         https://github.com/hwlee8042/hwlee8042.github.io
+  repo:         https://github.com/etooseducation/etooseducation.github.io
