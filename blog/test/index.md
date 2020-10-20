@@ -3,11 +3,11 @@ layout: post
 title:  "ETOOS 기술블로그 개설 Story"
 subtitle: "기술블로그 개설을 위한 조사와 개설 과정 정리"
 type: "Development"
-blog: true
-text: true
-author: "작성자"
+blog: false
+text: false
+author: "이혜원"
 post-header: true
-order: 0
+order: 1
 ---
 
 # ETOOS 기술블로그 만들기 과정
