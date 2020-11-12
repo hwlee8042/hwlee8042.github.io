@@ -15,11 +15,11 @@ order: 10
 준비했습니다.
 
 ## 학솔팀의 지나온 발자취 그리고 가야할길. 데브옵스 - 이병철
-<iframe width="750" height="420" src="http://acaimg.etoos.com/movie/tech/2nd/TechTalk_DevOps_by_lee.mp4"  
+<iframe width="750" height="420" src="https://acaimg.etoos.com/movie/tech/2nd/TechTalk_DevOps_by_lee.mp4"  
  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## PlatB 해커톤프로젝트 플랜B - 최태영
-<iframe width="750" height="420" src="http://acaimg.etoos.com/movie/tech/2nd/TechTalk_planB_by_choi.mp4"  
+<iframe width="750" height="420" src="https://acaimg.etoos.com/movie/tech/2nd/TechTalk_planB_by_choi.mp4"  
  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## 학교정보 데이터 크롤링 이슈 극복사례 - 김대식
@@ -27,7 +27,7 @@ order: 10
  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## ENP open postmortem - 조만희
-<iframe width="750" height="420" src="http://acaimg.etoos.com/movie/tech/2nd/TechTalk_enp_postmortem_by_jo.mp4"  
+<iframe width="750" height="420" src="https://acaimg.etoos.com/movie/tech/2nd/TechTalk_enp_postmortem_by_jo.mp4"  
  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## FAQ로 알아보는 IT전략의 방향성 - 문의선
